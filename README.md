@@ -1,4 +1,4 @@
-# 🌸 Iris Classification API
+# Iris Classification API
 
 A FastAPI-based machine learning API to classify iris flowers into
 **Setosa**, **Versicolor**, or **Virginica** based on sepal and petal
@@ -6,7 +6,7 @@ dimensions.
 
 ------------------------------------------------------------------------
 
-## 🚀 Features
+## Features
 
 -   Built with **FastAPI**
 -   Uses a trained **RandomForestClassifier** (`model.pkl`)
@@ -15,28 +15,21 @@ dimensions.
 
 ------------------------------------------------------------------------
 
-## 📦 Installation
+## Installation
 
-1.  Clone this repository:
-
-    ``` bash
-    git clone https://github.com/your-username/your-repo-name.git
-    cd your-repo-name
-    ```
-
-2.  Create a virtual environment and install dependencies:
+1.  Create a virtual environment and install dependencies:
 
     ``` bash
     python -m venv venv
-    source venv/bin/activate   # On Windows: venv\Scripts\activate
+    source venv/bin/activate   
     pip install -r requirements.txt
     ```
 
-3.  Make sure you have `model.pkl` in the project folder.
+2.  Make sure you have `model.pkl` in the project folder.
 
 ------------------------------------------------------------------------
 
-## ▶️ Running the API
+## Running the API
 
 Start the FastAPI server:
 
@@ -50,7 +43,7 @@ API will run at:
 
 ------------------------------------------------------------------------
 
-## 📡 API Endpoints
+## API Endpoints
 
 ### 1. Health Check
 
@@ -118,16 +111,3 @@ GET /model-info
 
 ------------------------------------------------------------------------
 
-## 🛠️ Tech Stack
-
--   Python
--   FastAPI
--   Scikit-learn
--   Joblib
--   Uvicorn
-
-------------------------------------------------------------------------
-
-## 📄 License
-
-This project is licensed under the MIT License.
